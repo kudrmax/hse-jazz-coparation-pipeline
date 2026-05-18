@@ -1,0 +1,12 @@
+# Pipeline venv для generation-pipeline.
+# Создание: python3.12 -m venv pipelines/generation-pipeline/.venv
+# Установка: pipelines/generation-pipeline/.venv/bin/pip install -r pipelines/generation-pipeline/requirements.txt
+music21==9.9.1
+pretty_midi==0.2.11
+PyYAML==6.0.3
+pytest==9.0.3
+# Required only for tests/cmt/test_xml_to_cmt_tensors_*.py — they `import preprocess`
+# from the CMT fork to round-trip-validate our music21→tensor converter against
+# the authors' extract_instances_from_midi. Both deps are imported by that file.
+scipy==1.13.1
+tqdm==4.67.1

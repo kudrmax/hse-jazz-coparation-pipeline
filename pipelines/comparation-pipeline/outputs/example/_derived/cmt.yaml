@@ -1,0 +1,15 @@
+model: cmt
+output:
+  formats:
+  - midi
+  force_overwrite: true
+common:
+  seed: 1
+  input_bars: 8
+  output_bars: 8
+  device: cpu
+cmt:
+  fork_root: /Users/maxos/PythonProjects/diploma2/models/CMT-pytorch
+  hparams_yaml_path: /Users/maxos/PythonProjects/diploma2/models/CMT-pytorch/hparams_jazz_16bars.yaml
+  checkpoint_path: /Users/maxos/PythonProjects/diploma2/models/CMT-pytorch/result/paper/16bars/best_jazz_model_16bars.pth.tar
+  topk: 5

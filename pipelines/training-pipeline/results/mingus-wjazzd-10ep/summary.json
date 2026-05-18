@@ -1,0 +1,26 @@
+{
+  "epochs": 10,
+  "bptt": 35,
+  "device": "cpu",
+  "split": {
+    "train": 340,
+    "val": 42,
+    "test": 40
+  },
+  "pitch": {
+    "test_loss": 2.5708444322927253,
+    "test_ppl": 13.076862304731986,
+    "test_acc": 0.1306571912128266,
+    "best_val_loss": 2.5062747102601475,
+    "train_time_sec": 628.8501427173615,
+    "n_params": 1764586
+  },
+  "duration": {
+    "test_loss": 1.4077397127959579,
+    "test_ppl": 4.086707823514106,
+    "test_acc": 0.3438038882608995,
+    "best_val_loss": 1.4469249942980775,
+    "train_time_sec": 483.55856227874756,
+    "n_params": 1093460
+  }
+}

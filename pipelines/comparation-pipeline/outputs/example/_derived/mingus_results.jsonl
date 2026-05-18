@@ -1,0 +1,6 @@
+{"task_id": "728_I/0", "ok": true, "files": ["/Users/maxos/PythonProjects/diploma2/pipelines/comparation-pipeline/outputs/example/themes/728_I/mingus/sample_0/raw_full.mid"], "duration_sec": 7.379}
+{"task_id": "728_I/1", "ok": true, "files": ["/Users/maxos/PythonProjects/diploma2/pipelines/comparation-pipeline/outputs/example/themes/728_I/mingus/sample_1/raw_full.mid"], "duration_sec": 0.415}
+{"task_id": "A smooth One_I/0", "ok": true, "files": ["/Users/maxos/PythonProjects/diploma2/pipelines/comparation-pipeline/outputs/example/themes/A smooth One_I/mingus/sample_0/raw_full.mid"], "duration_sec": 1.026}
+{"task_id": "A smooth One_I/1", "ok": true, "files": ["/Users/maxos/PythonProjects/diploma2/pipelines/comparation-pipeline/outputs/example/themes/A smooth One_I/mingus/sample_1/raw_full.mid"], "duration_sec": 0.888}
+{"task_id": "AfterYou'veGone_III/0", "ok": true, "files": ["/Users/maxos/PythonProjects/diploma2/pipelines/comparation-pipeline/outputs/example/themes/AfterYou'veGone_III/mingus/sample_0/raw_full.mid"], "duration_sec": 0.553}
+{"task_id": "AfterYou'veGone_III/1", "ok": true, "files": ["/Users/maxos/PythonProjects/diploma2/pipelines/comparation-pipeline/outputs/example/themes/AfterYou'veGone_III/mingus/sample_1/raw_full.mid"], "duration_sec": 0.494}

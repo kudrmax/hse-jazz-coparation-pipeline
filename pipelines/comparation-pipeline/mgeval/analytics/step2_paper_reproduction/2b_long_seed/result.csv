@@ -1,0 +1,10 @@
+feature,kl_existing,oa_existing,kl_ours,oa_ours
+total_used_pitch,0.498312,0.248821,0.339685,0.359914
+total_pitch_class_histogram,0.017045,0.520427,0.018266,0.556684
+pitch_class_transition_matrix,0.081038,0.771499,0.081452,0.770462
+pitch_range,0.356281,0.363063,0.100364,0.522014
+avg_pitch_interval,0.062516,0.647778,0.058730,0.661791
+total_used_note,0.082868,0.763220,0.083194,0.766540
+avg_ioi,0.082512,0.179595,0.042291,0.241387
+note_length_hist,0.228655,0.448594,0.175786,0.473777
+note_length_transition_matrix,0.111867,0.796893,0.112442,0.796851

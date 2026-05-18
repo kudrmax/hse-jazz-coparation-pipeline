@@ -1,0 +1,24 @@
+# Example config for BebopNet.
+# Run from repo root:
+#   pipelines/generation-pipeline/.venv/bin/python \
+#       pipelines/generation-pipeline/runners/run.py \
+#       pipelines/generation-pipeline/runners/example_configs/bebopnet.yaml \
+#       --input pipelines/generation-pipeline/inputs/musicxml/Autumn_Leaves.musicxml \
+#       --output-dir pipelines/generation-pipeline/outputs/bebopnet/example_run
+model: bebopnet
+
+output:
+  formats: [midi, musicxml, musicxml_with_chords]
+  force_overwrite: true
+
+common:
+  seed: 1
+  input_bars: 32
+  output_bars: 32
+  device: cpu
+
+bebopnet:
+  fork_root: models/bebopnet-code
+  model_dir: models/bebopnet-code/result/paper-default
+  checkpoint: model_best.pt
+  temperature: 1.0

@@ -1,0 +1,33 @@
+# Smoke-конфигурация: первые 3 темы, 2 семпла на тему, только .mid output.
+# Используется для разработки, e2e тестов.
+slug: example
+samples_per_theme: 2
+device: cpu
+themes_limit: 3
+output_formats: [midi]
+segmentation:
+  chunk_bars: 8
+cmt:
+  fork_root: models/CMT-pytorch
+  hparams_yaml_path: models/CMT-pytorch/hparams_jazz_16bars.yaml
+  checkpoint_path: models/CMT-pytorch/result/paper/16bars/best_jazz_model_16bars.pth.tar
+  topk: 5
+  input_bars: 8
+  output_bars: 8
+mingus:
+  fork_root: models/MINGUS
+  data_path: models/MINGUS/A_preprocessData/data/DATA.json
+  checkpoint_dir: models/MINGUS/B_train/models/paper-optimal
+  epochs: 10
+  cond_pitch: D-C-B-BE-O
+  cond_duration: B-BE-O
+  temperature: 1.0
+  input_bars: auto
+  output_bars: auto
+bebopnet:
+  fork_root: models/bebopnet-code
+  model_dir: models/bebopnet-code/result/paper-default
+  checkpoint: model_best.pt
+  temperature: 1.0
+  input_bars: auto
+  output_bars: auto

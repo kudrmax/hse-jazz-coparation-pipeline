@@ -1,0 +1,7 @@
+# Ephemeral артефакты — регенерится скриптом.
+# Committed: run.py, test_set_bias.py, inputs*/, mgeval_continuation*.csv,
+# test_set_bias_*.csv
+real*/
+gen_existing*/
+gen_ours*/
+trial_*/

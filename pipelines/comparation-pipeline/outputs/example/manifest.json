@@ -1,0 +1,152 @@
+{
+  "config_slug": "example",
+  "config_fingerprint": "sha256:5b7ae1905208ebc8ac4de9f5351282eedfaf0f8b89faf9b2dfa8f68d37607e8a",
+  "samples_per_theme": 2,
+  "output_formats": [
+    "midi"
+  ],
+  "started_at": "2026-05-12T22:28:41Z",
+  "last_updated_at": "2026-05-12T22:32:45Z",
+  "themes": {
+    "728_I": {
+      "status": "fail",
+      "removed_from_corpus": false,
+      "excluded_due_to": "bebopnet",
+      "models": {
+        "cmt": {
+          "status": "ok",
+          "samples": {
+            "0": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:10Z"
+            },
+            "1": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:10Z"
+            }
+          }
+        },
+        "mingus": {
+          "status": "ok",
+          "samples": {
+            "0": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:22Z"
+            },
+            "1": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:22Z"
+            }
+          }
+        },
+        "bebopnet": {
+          "status": "fail",
+          "samples": {
+            "0": {
+              "ok": false,
+              "error": "SubprocessInferenceError: BebopNet inference failed: RuntimeError: The expanded size of the tensor (2) must match the existing size (0) at non-singleton dimension 1.  Target sizes: [0, 2, 0].  Tensor sizes: [0, 1]",
+              "ts": "2026-05-12T22:32:45Z"
+            },
+            "1": {
+              "ok": false,
+              "error": "SubprocessInferenceError: BebopNet inference failed: RuntimeError: The expanded size of the tensor (2) must match the existing size (0) at non-singleton dimension 1.  Target sizes: [0, 2, 0].  Tensor sizes: [0, 1]",
+              "ts": "2026-05-12T22:32:45Z"
+            }
+          }
+        }
+      }
+    },
+    "A smooth One_I": {
+      "status": "ok",
+      "removed_from_corpus": false,
+      "excluded_due_to": null,
+      "models": {
+        "cmt": {
+          "status": "ok",
+          "samples": {
+            "0": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:10Z"
+            },
+            "1": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:10Z"
+            }
+          }
+        },
+        "mingus": {
+          "status": "ok",
+          "samples": {
+            "0": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:22Z"
+            },
+            "1": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:22Z"
+            }
+          }
+        },
+        "bebopnet": {
+          "status": "ok",
+          "samples": {
+            "0": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:45Z"
+            },
+            "1": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:45Z"
+            }
+          }
+        }
+      }
+    },
+    "AfterYou'veGone_III": {
+      "status": "ok",
+      "removed_from_corpus": false,
+      "excluded_due_to": null,
+      "models": {
+        "cmt": {
+          "status": "ok",
+          "samples": {
+            "0": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:10Z"
+            },
+            "1": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:10Z"
+            }
+          }
+        },
+        "mingus": {
+          "status": "ok",
+          "samples": {
+            "0": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:22Z"
+            },
+            "1": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:22Z"
+            }
+          }
+        },
+        "bebopnet": {
+          "status": "ok",
+          "samples": {
+            "0": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:45Z"
+            },
+            "1": {
+              "ok": true,
+              "ts": "2026-05-12T22:32:45Z"
+            }
+          }
+        }
+      }
+    }
+  }
+}

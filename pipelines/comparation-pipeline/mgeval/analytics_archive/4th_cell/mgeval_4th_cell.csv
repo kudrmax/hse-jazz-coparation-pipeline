@@ -1,0 +1,10 @@
+feature,kl_chunked_wjazzd,oa_chunked_wjazzd,kl_bootstrap_mean,kl_bootstrap_std,oa_bootstrap_mean,oa_bootstrap_std,n_real_chunks,n_gen_chunks,n_bootstrap_trials
+total_used_pitch,0.486541,0.451445,0.284287,0.100268,0.407432,0.081553,139,48,20
+total_pitch_class_histogram,0.084807,0.771895,,,,,139,48,
+pitch_class_transition_matrix,0.331682,0.791511,,,,,139,48,
+pitch_range,0.831048,0.313980,0.548258,0.261812,0.283343,0.091390,139,48,20
+avg_pitch_interval,0.561170,0.425802,0.352983,0.180188,0.385797,0.097547,139,48,20
+total_used_note,0.780149,0.403117,,,,,139,48,
+avg_ioi,0.372281,0.247943,,,,,139,48,
+note_length_hist,0.003778,0.393295,,,,,139,48,
+note_length_transition_matrix,0.141250,0.867872,,,,,139,48,

@@ -1,0 +1,4 @@
+model,ngram_overlap_n3,ngram_overlap_n4,ngram_overlap_n5,lcs_max_mean,lcs_max_std,lcs_max_median,lcs_max_p25,lcs_max_p75,lcs_max_min,lcs_max_max,n_gen_chunks,n_gen_chunks_lcs,n_gen_ngrams_n3,n_gen_ngrams_n4,n_gen_ngrams_n5,n_train_pieces
+cmt,0.994880,0.903423,0.541678,6.588489,1.687153,6.000000,6.000000,8.000000,1,13,700,695,19142,18462,17791,340
+mingus,0.904794,0.711805,0.384953,6.182716,1.018931,6.000000,6.000000,7.000000,4,12,405,405,10367,9962,9557,340
+bebopnet,0.994979,0.881386,0.449900,7.196242,1.447446,7.000000,6.000000,8.000000,5,19,479,479,45010,44531,44052,340

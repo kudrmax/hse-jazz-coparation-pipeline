@@ -1,0 +1,2 @@
+728_I                          sample_0 bebopnet — SubprocessInferenceError: BebopNet inference failed: RuntimeError: The expanded size of the tensor (2) must match the existing size (0) at non-singleton dimension 1.  Target sizes: [0, 2, 0].  Tensor sizes: [0, 1]
+728_I                          sample_1 bebopnet — SubprocessInferenceError: BebopNet inference failed: RuntimeError: The expanded size of the tensor (2) must match the existing size (0) at non-singleton dimension 1.  Target sizes: [0, 2, 0].  Tensor sizes: [0, 1]

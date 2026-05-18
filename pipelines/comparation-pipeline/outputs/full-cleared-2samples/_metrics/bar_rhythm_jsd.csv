@@ -1,0 +1,4 @@
+model,jsd,n_real_bars,n_gen_bars,n_unique_real,n_unique_gen,n_unique_union
+cmt,0.637764,2696,8324,2022,1561,3553
+mingus,0.652490,2696,6476,2022,1089,3064
+bebopnet,0.658305,2696,7648,2022,2644,4625

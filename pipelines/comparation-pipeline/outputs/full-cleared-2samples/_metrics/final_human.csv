@@ -1,0 +1,85 @@
+metric,cmt,mingus,bebopnet
+mgeval_pc,"KL = 0.891
+OA = 0.367","KL = 0.177
+OA = 0.689","KL = 0.009
+OA = 0.854"
+mgeval_pr,"KL = 1.017
+OA = 0.302","KL = 0.126
+OA = 0.650","KL = 0.165
+OA = 0.604"
+mgeval_pi,"KL = 0.682
+OA = 0.446","KL = 0.113
+OA = 0.689","KL = 1.143
+OA = 0.401"
+mgeval_nc,"KL = 0.164
+OA = 0.691","KL = 0.372
+OA = 0.643","KL = 0.091
+OA = 0.770"
+mgeval_ioi,"KL = 10.463
+OA = 0.510","KL = 0.924
+OA = 0.159","KL = 0.574
+OA = 0.843"
+mgeval_pch,"KL = 0.188
+OA = 0.434","KL = 0.035
+OA = 0.766","KL = 0.836
+OA = 0.857"
+mgeval_pctm,"KL = 0.082
+OA = 0.796","KL = 0.164
+OA = 0.765","KL = 0.051
+OA = 0.862"
+mgeval_nlh,"KL = 0.544
+OA = 0.450","KL = 0.806
+OA = 0.349","KL = 0.383
+OA = 0.459"
+mgeval_nltm,"KL = 0.586
+OA = 0.560","KL = 0.252
+OA = 0.613","KL = 0.286
+OA = 0.536"
+scale_match,"mean = 0.748 ± 0.115
+median = 0.758 (0.694–0.817)","mean = 0.672 ± 0.087
+median = 0.672 (0.613–0.733)","mean = 0.612 ± 0.056
+median = 0.609 (0.581–0.640)"
+scale_match_per_time,"mean = 0.750 ± 0.121
+median = 0.766 (0.679–0.822)","mean = 0.670 ± 0.091
+median = 0.655 (0.607–0.741)","mean = 0.630 ± 0.068
+median = 0.626 (0.583–0.663)"
+chord_tone_ratio,"mean = 0.477 ± 0.109
+median = 0.473 (0.417–0.544)","mean = 0.392 ± 0.077
+median = 0.381 (0.330–0.438)","mean = 0.352 ± 0.065
+median = 0.344 (0.311–0.378)"
+ctr_first_beat,"mean = 0.493 ± 0.192
+median = 0.516 (0.370–0.594)","mean = 0.360 ± 0.282
+median = 0.333 (0.167–0.500)","mean = 0.375 ± 0.191
+median = 0.369 (0.250–0.500)"
+chord_match_per_time,"mean = 0.484 ± 0.112
+median = 0.485 (0.423–0.538)","mean = 0.391 ± 0.094
+median = 0.381 (0.328–0.436)","mean = 0.365 ± 0.089
+median = 0.353 (0.315–0.397)"
+bar_rhythm_jsd,0.638,0.652,0.658
+note_density,"mean = 4.013 ± 1.253
+median = 4.062 (3.319–4.797)","mean = 3.684 ± 0.637
+median = 3.531 (3.281–3.938)","mean = 11.848 ± 2.390
+median = 11.381 (10.324–13.156)"
+pitch_entropy,"mean = 2.426 ± 0.290
+median = 2.448 (2.226–2.660)","mean = 3.130 ± 0.138
+median = 3.149 (3.043–3.232)","mean = 3.344 ± 0.134
+median = 3.384 (3.276–3.435)"
+theme_ngram_overlap_n3,"mean = 0.044 ± 0.030
+median = 0.038 (0.023–0.060)","mean = 0.024 ± 0.055
+median = 0.007 (0.000–0.024)","mean = 0.059 ± 0.059
+median = 0.043 (0.018–0.075)"
+theme_ngram_overlap_n4,"mean = 0.006 ± 0.009
+median = 0.002 (0.000–0.010)","mean = 0.011 ± 0.050
+median = 0.000 (0.000–0.000)","mean = 0.033 ± 0.053
+median = 0.009 (0.000–0.051)"
+theme_ngram_overlap_n5,"mean = 0.001 ± 0.003
+median = 0.000 (0.000–0.000)","mean = 0.008 ± 0.046
+median = 0.000 (0.000–0.000)","mean = 0.026 ± 0.049
+median = 0.000 (0.000–0.039)"
+plagiarism_ngram_n3,0.995,0.905,0.995
+plagiarism_ngram_n4,0.903,0.712,0.881
+plagiarism_ngram_n5,0.542,0.385,0.450
+plagiarism_lcs,"mean = 6.588 ± 1.687
+median = 6.000 (6.000–8.000)","mean = 6.183 ± 1.019
+median = 6.000 (6.000–7.000)","mean = 7.196 ± 1.447
+median = 7.000 (6.000–8.000)"

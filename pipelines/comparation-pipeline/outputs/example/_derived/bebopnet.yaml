@@ -1,0 +1,15 @@
+model: bebopnet
+output:
+  formats:
+  - midi
+  force_overwrite: true
+common:
+  seed: 1
+  input_bars: auto
+  output_bars: auto
+  device: cpu
+bebopnet:
+  fork_root: /Users/maxos/PythonProjects/diploma2/models/bebopnet-code
+  model_dir: /Users/maxos/PythonProjects/diploma2/models/bebopnet-code/result/paper-default
+  checkpoint: model_best.pt
+  temperature: 1.0

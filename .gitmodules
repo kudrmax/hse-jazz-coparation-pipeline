@@ -1,0 +1,9 @@
+[submodule "models/CMT-pytorch"]
+	path = models/CMT-pytorch
+	url = https://github.com/kudrmax/CMT-pytorch.git
+[submodule "models/bebopnet-code"]
+	path = models/bebopnet-code
+	url = https://github.com/kudrmax/bebopnet-code.git
+[submodule "models/MINGUS"]
+	path = models/MINGUS
+	url = https://github.com/kudrmax/MINGUS.git

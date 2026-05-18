@@ -1,0 +1,28 @@
+/.DS_Store
+/articles/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Generation outputs (MIDI artifacts produced by the pipeline)
+pipelines/generation-pipeline/outputs/
+/.cache/verified-citation-finder/eval-2-fabricated-claim-trap
+/articles/.pdf_text_cache
+/articles/модели/.pdf_text_cache
+/paper/.DS_Store
+/paper/learning/.DS_Store
+/datasets/.DS_Store
+/paper/dataset/.DS_Store
+/datasets/wjazzd/analysis/.DS_Store
+/.verified-citation-finder
+/paper/comparation/.DS_Store
+/paper/diagrams/.DS_Store
+/pipelines/comparation-pipeline/mgeval/.DS_Store
+/pipelines/comparation-pipeline/mgeval/analytics_archive/.DS_Store
+/.obsidian
+/paper/.obsidian
+/articles/метрики/.pdf_text_cache
+/pipelines/comparation-pipeline/outputs/full-cleared-2samples/.DS_Store
+/pipelines/comparation-pipeline/outputs/.DS_Store
